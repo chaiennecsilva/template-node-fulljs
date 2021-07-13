@@ -1,4 +1,5 @@
-import darthError from "../../../assets/images/elements/planet.png"
+import darthError from "../../../assets/images/elements/404_darth-vader.png";
+import errorBg from "../../../assets/images/background/bg3.jpeg";
 
 let Error404 = {
     is_private: false,
@@ -13,7 +14,7 @@ let Error404 = {
 }
 
 let error = `
-<div class="error-default style="background-image:url()>
+<div class="error-default style="background-image:url('${errorBg}')>
     <div classss="container">
         <h1>erro 404!</h1>
         <a href="http://localhost:8080/">

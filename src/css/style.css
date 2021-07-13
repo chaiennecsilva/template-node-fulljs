@@ -31,21 +31,38 @@ h1, h2, h3, h4, h5, p, b, span {
   left: 10px;
   bottom: 10px;
 }
+.main-left img {
+  width: 120px;
+  height: auto;
+  transition: 0.3s;
+}
+.main-left img:hover {
+  transform: scale(1.2);
+}
 
 .footer-contain {
-  margin-top: calc(10px - 220px);
+  margin-top: calc(60px - 220px);
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Roboto", sans-serif;
 }
 .footer-contain img {
-  height: 190px;
+  height: 180px;
   width: auto;
-  transition: 0.3;
+  transition: 0.3s;
 }
 .footer-contain img:hover {
   transform: scale(1.2);
+}
+
+.error-default {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
 }
 
 .section {

@@ -14,14 +14,14 @@ let Error404 = {
 }
 
 let error = `
-<div class="error-default style="background-image:url('${errorBg}')>
-    <div classss="container">
-        <h1>erro 404!</h1>
+<div class="error-default" style="background-image:url('${errorBg}')">
+    <div class="container">
         <a href="http://localhost:8080/">
             <img src ="${darthError}" alt="Vader error">
         </a>
-        <h2>Caro padawan, este contéudo não existe.</h2> 
-        <h3>Clique no Vader e tente novamente.</h3>
+        <h2>Error 404!</h2>
+        <h3> CARO PADAWAN, ESTE CONTÉUDO NÃO EXISTE.</h3> 
+        <h2> CLIQUE NO VALDER E TENTE NOVAMENTE.</h2>
     </div> 
 </div>      
 `

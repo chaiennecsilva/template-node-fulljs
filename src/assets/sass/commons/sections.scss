@@ -3,7 +3,7 @@
     width: 100%;
 }
 .background--one{
-    background-size: cover;
+    background-size: cover; //antes cover;
     background-attachment: fixed;
     background-position: center;
     height: 100vh;
@@ -28,7 +28,7 @@
             transition: 0,3s;
 
             &:hover{
-                transform: scale(1.2);
+                transform: scale(1.2)
             }
         }
     }
@@ -60,4 +60,6 @@
         }
     
 }
+
+
 }
